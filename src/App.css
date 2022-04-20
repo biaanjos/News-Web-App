@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(243, 243, 252);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-image: url("https://wallpapercave.com/wp/wp2646225.jpg");
+  
+    background-repeat: repeat;
+    background-position: center center;
+    animation: gradient 45s ease infinite;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  html,
+  #body {
+    width: 100%;
+    height: 100%;
+  }
+  .text-center {
+    transition: background-color 0.8s ease-out 10ms;
+  }
+  .text-center:hover {
+    background-color: rgb(243, 243, 252);
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 55%;
+    }
+    50% {
+      background-position: 100% 55%;
+    }
+    100% {
+      background-position: 0% 55%;
+    }
+  }
+  
